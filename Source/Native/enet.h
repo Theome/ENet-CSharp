@@ -28,6 +28,9 @@
 #include <stdbool.h>
 #include <stdint.h>
 #include <time.h>
+#ifdef ENET_DEBUG
+#include <stdio.h>
+#endif
 
 #define ENET_VERSION_MAJOR 2
 #define ENET_VERSION_MINOR 5
